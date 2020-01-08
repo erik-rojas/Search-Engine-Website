@@ -1,0 +1,98 @@
+.weather {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &-info {
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-left: 24px;
+    background-color: #C3EAFF;
+    background-image: url('../../../assets/images/bg_weather.png');
+    background-repeat: no-repeat;
+    background-size: 140px auto;
+    background-position: right 70px;
+    &-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: 'Lato Bold';
+      font-size: 13px;
+      letter-spacing: 0.23px;
+      color: #212121;
+      padding-right: 24px;
+      text-transform: uppercase;
+      img {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
+      .temperature {
+        display: flex;
+        flex-direction: row;
+        &-value {
+          font-family: 'Lato Light';
+          font-size: 66px;
+          letter-spacing: 0.23px;
+          line-height: 79px;
+          color: #212121;
+        }
+        &-symbol {
+          width: 16px;
+          height: 16px;
+          border-radius: 15px;
+          border: solid 2px #212121;
+          margin-top: 16px;
+          margin-left: 5px;
+        }
+      }
+      .date-dropdown {
+        width: 80px;
+        margin-top: 20px;
+        margin-left: 5px;
+      }
+    }
+    .img-overflow {
+      position: absolute;
+      align-self: flex-end;
+    }
+  }
+  .time-info {
+    width: 92%;
+    height: calc(100% - 173px);
+    display: flex;
+    flex-direction: row;
+    padding: 0 4%;
+    &-individual {
+      width: 20%;
+      height: 100%;
+    }
+  }
+}
+
+.timepanel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    position: absolute;
+    align-self: flex-start;
+    margin-top: -13px;
+  }
+  .time {
+    font-family: 'Lato Bold';
+    font-size: 13px;
+    letter-spacing: 0.23px;
+    color: #212121;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

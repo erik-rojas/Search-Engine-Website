@@ -1,0 +1,58 @@
+.upcoming-events {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .category {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato Black';
+    font-size: 18px;
+    letter-spacing: 0.75pt;
+    color: #212121;
+    padding-left: 24px;
+  }
+  .content {
+    height: 142px;
+    background-image: url('../../../assets/images/bg_upcoming.png');
+    background-repeat: no-repeat;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .event-info {
+      display: flex;
+      flex-direction: column;
+      .event-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .event-title {
+          font-family: 'Lato Bold';
+          font-size: 16px;
+          line-height: 19px;
+          color: white;
+        }
+        img {
+          width: 17px;
+          height: 18px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+      .event-subTitle {
+        font-family: 'Lato Medium';
+        font-size: 12px;
+        line-height: 19px;
+        color: white;
+      }
+    }
+    .date-time {
+      font-family: 'Lato Regular';
+      font-size: 13px;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.flights {
+  width: calc(100% - 48px);
+  height: calc(100% - 39px);
+  display: flex;
+  flex-direction: column;
+  background-color: #4285F4;
+  border-radius: 3px;
+  padding: 24px 24px 15px 24px;
+  &-header {
+    display: flex;
+    flex-direction: row;
+    .category {
+      font-family: 'Lato Bold';
+      font-size: 18px;
+      letter-spacing: 0.75px;
+      color: white;
+      margin-left: 16px;
+    }
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    .content-row {
+      font-family: 'Lato Medium';
+      font-size: 15px;
+      line-height: 23px;
+      color: white;
+    }
+  }
+}

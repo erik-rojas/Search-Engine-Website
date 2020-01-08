@@ -1,0 +1,24 @@
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+  .itemContent {
+    font-family: 'Lato Regular';
+    font-size: 11pt;
+    color: #4E4E4E;
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+    margin: 0 5px;
+    &:hover {
+      cursor: pointer;
+      color: black;
+    }
+  }
+  .itemUnderline {
+    width: 100%;
+    height: 5px;
+    background-color: #4285F4;
+  }
+}

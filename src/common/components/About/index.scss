@@ -1,0 +1,37 @@
+.about {
+  width: calc(100% - 48px);
+  height: calc(100% - 48px);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 24px 24px;
+  &-header {
+    font-family: 'Lato Black';
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    color: #212121;
+    margin-bottom: 15px;
+  }
+  .content {
+    height: calc(100% - 38px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .about-content {
+      font-family: 'Lato Light';
+      font-size: 15px;
+      color: #212121;
+      line-height: 23px;
+    }
+    .wikipedia {
+      display: flex;
+      flex-direction: row;
+      &-text {
+        font-family: 'Lato Medium';
+        font-size: 12px;
+        letter-spacing: 0.8px;
+        color: #4E4E4E;
+        margin-left: 5px;
+      }
+    }
+  }
+}

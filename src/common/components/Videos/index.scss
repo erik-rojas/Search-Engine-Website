@@ -1,0 +1,25 @@
+.videos {
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../assets/images/bg_video.png');
+  background-repeat: no-repeat;
+  padding: 25px;
+  &:hover {
+    cursor: pointer;
+  }
+  .category {
+    font-family: 'Lato Black';
+    font-size: 18px;
+    letter-spacing: 0.75pt;
+    color: white;
+  }
+  .btn-play {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
