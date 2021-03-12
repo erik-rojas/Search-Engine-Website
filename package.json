@@ -33,7 +33,7 @@
     "raf": "3.4.0",
     "re-carousel": "^2.3.1",
     "react": "^16.4.2",
-    "react-dev-utils": "^5.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.4.2",
     "react-geocode": "^0.1.2",
     "react-google-maps": "^9.4.5",
